@@ -43,8 +43,6 @@ a:hover {
 .is-item > span:hover span.background{
 	-webkit-filter:grayscale(100%);
 	filter:grayscale(100%);
-	-webkit-filter:blur(3px);
-	filter:blur(3px);
 	overflow:hidden;
 }
 
@@ -70,7 +68,7 @@ a:hover {
 .is-item a:hover {
 	background:rgba(0,0,0,0.6);
 	color:#fff;
-	transition:background 0.2s;
+	transition:background 0.1s;
 	text-align:center;
 	font-size: 18px;
 	font-weight: 100;
