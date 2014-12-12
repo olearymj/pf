@@ -8,48 +8,120 @@
 		<div class="bottom">
 			<div class="projects isotope">
 				<div class="is-item project college">
-					<span style='background-image:url(projectImages/sgp.png)'>
-						<a href="http://local.hannah.com/moi/projects/sgp/">Secret Garden Project</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/sgp.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/sgp/">
+							<span class='project-title'>
+								Secret Garden Project
+							</span>
+							<span class="description">
+								College, Group Project, Arduino, Networking
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project professional">
-					<span style='background-image:url(projectImages/rufflr.png)'>
-						<a href="http://local.hannah.com/moi/projects/rufflr/">Rufflr</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/rufflr.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/rufflr/">
+							<span class='project-title'>
+								Rufflr
+							</span>
+							<span class="description">
+								Professional, Web Design, Web Development, Responsive, Wordpress
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project professional">
-					<span style='background-image:url(projectImages/voyvoy.png)'>
-						<a href="http://local.hannah.com/moi/projects/voyvoy/">Voy Voy</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/voyvoy.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/voyvoy/">
+							<span class='project-title'>
+								Voy Voy
+							</span>
+							<span class="description">
+								Professional, Freelance, Web Design, Web Development, Responsive, Wordpress
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project professional">
-					<span style='background-image:url(projectImages/spreadangel.png)'>
-						<a href="http://local.hannah.com/moi/projects/spreadangel/">SpreadAngel</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/spreadangel.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/spreadangel/">
+							<span class='project-title'>
+								SpreadAngel
+							</span>
+							<span class="description">
+								Professional, Freelance, Web Design, Web Development, Responsive
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project professional">
-					<span style='background-image:url(projectImages/basicspace.png)'>
-						<a href="http://local.hannah.com/moi/projects/basicspace/">Basic Space</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/basicspace.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/basicspace/">
+							<span class='project-title'>
+								Basic Space
+							</span>
+							<span class="description">
+								Professional, Freelance, Web Design, Web Development, Wordpress
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project professional">
-					<span style='background-image:url(projectImages/qon.png)'>
-						<a href="http://local.hannah.com/moi/projects/qon/">Queens of Neon</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/qon.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/qon/">
+							<span class='project-title'>
+								Queens of Neon
+							</span>
+							<span class="description">
+								Professional, Freelance, Web Design, Web Development
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project college">
-					<span style='background-image:url(projectImages/pogray.png)'>
-						<a href="http://local.hannah.com/moi/projects/povray/">PovRay</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/povray.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/povray/">
+							<span class='project-title'>
+								PovRay
+							</span>
+							<span class="description">
+								
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project college">
-					<span style='background-image:url(projectImages/3dsmax.png)'>
-						<a href="http://local.hannah.com/moi/projects/3dsmax/">3D Studio Max</a>
+					<span>
+						<span class="background" style='background-image:url(projectImages/3dsmax.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/3dsmax/">
+							<span class='project-title'>
+								3D Studio Max
+							</span>
+							<span class="description">
+								
+							</span>
+						</a>
 					</span>
 				</div>
 				<div class="is-item project personal">
 					<span style='background-image:url(projectImages/bench.png)'>
-						<a href="http://local.hannah.com/moi/projects/bench/">Nomad Bench</a>
+						<span class="background" style='background-image:url(projectImages/bench.png)'></span>
+						<a href="http://local.hannah.com/moi/projects/bench/">
+							<span class='project-title'>
+								Nomad Bench
+							</span>
+							<span class="description">
+								
+							</span>
+						</a>
 					</span>
 				</div>
 			</div>

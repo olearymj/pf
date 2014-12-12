@@ -17,6 +17,7 @@ a:hover {
 
 .isotope{
 	width:100%;
+	margin-left:0.5%;
 }
 
 .is-item {
@@ -25,7 +26,7 @@ a:hover {
 	margin-bottom:10px;
 }
 
-.is-item span {
+.is-item > span {
 	width: 100%;
 	height:100%;
 	position: relative;
@@ -39,23 +40,74 @@ a:hover {
 	background-color:#3db1c6;
 }
 
-.is-item span:hover {
+.is-item > span:hover span.background{
 	-webkit-filter:grayscale(100%);
 	filter:grayscale(100%);
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+	overflow:hidden;
 }
 
-.is-item a {
+.is-item span span.background{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	display: block;
+	background-size: cover;
+	background-position:center;
+}
+
+.is-item span a {
 	width: 100%;
 	height: 100%;
 	display: block;
-	padding: 5%;
-	color:#fff;
+	color:transparent;
 	text-decoration:none;
+	position: absolute;
+	z-index:20;
 }
 
 .is-item a:hover {
-	background:rgba(0,0,0,0.5);
+	background:rgba(0,0,0,0.6);
+	color:#fff;
+	transition:background 0.2s;
+	text-align:center;
+	font-size: 18px;
+	font-weight: 100;
 }
+
+.is-item > span a span {
+	opacity:0;
+}
+
+.is-item > span a:hover span.project-title { 
+	position: absolute;
+	margin-top: 25%;
+	color: #fff;
+	width: auto;
+	text-align: left;
+	border-bottom: solid 1px #fff;
+	padding-bottom: 10px;
+	margin-left: -45%;
+	opacity:1;
+	transition:opacity 0.1s;
+	z-index: 100;
+}
+
+.is-item > span a:hover span.description { 
+	position: absolute;
+	margin-top: 40%;
+	text-align:left;
+	color: #fff;
+	margin-left: -45%;
+	width: auto;
+	padding-bottom: 10px;
+	opacity:0.8;
+	transition:opacity 0.1s;
+	z-index: 100;
+	font-size:13px;
+}
+
 
 .is-item.w2{
 	width:50%;
@@ -232,15 +284,100 @@ nav.main a{
 
 
 
+@media only screen and (max-width:1420px) {
+	.is-item { 
+		width:24vw;
+		height:24vw;
+		margin-right:-5px;
+		margin-bottom:5px;
+	}
+}
+
+@media only screen and (max-width:1040px) {
+		.is-item { 
+			width:23vw;
+			height:23vw;
+			margin-right:0;
+			margin-bottom:10px;
+		}
+
+		.isotope{
+			margin-left:0.7%;
+		}
+	}
+
+@media only screen and (max-width:703px) {
+	.isotope{
+		margin-left:0.1%;
+	}
+	.is-item { 
+		width:23vw;
+		height:23vw;
+		margin-right:-5px;
+		margin-bottom:5px;
+	}
+
+	span.description{
+		display:none;
+	}
+
+	span.project-title{
+		font-size:13px;
+	}
+}
+
+
+
 @media only screen and (max-width:700px) {
 	
 	body{
 	}
 
 	.is-item {
-		width:46vw;
-		height:46vw;
-		margin-bottom:10px;
+		width:44vw;
+		height:44vw;
+		margin-bottom:5px;
+	}
+
+
+	.is-item > span:hover span.background{
+		-webkit-filter:grayscale(100%);
+		filter:grayscale(100%);
+		-webkit-filter:blur(0px);
+		filter:blur(0px);
+		overflow:hidden;
+	}
+	.is-item a{
+		background:rgba(0,0,0,0.3);
+		color:#fff;
+		transition:background 0.2s;
+		text-align:center;
+		width:100%;
+		height:100%;
+		font-size: 16px;
+		font-weight: 500;
+		display:table !important;
+	}
+
+	.is-item > span a span.project-title, .is-item > span a:hover span.project-title{
+		display: table-cell !important;
+		margin-top: 25%;
+		width:100%;
+		height:100%;
+		margin-left: 0 !important;
+		color: #fff;
+		width: 100%;
+		padding-bottom: 10px;
+		opacity: 1;
+		z-index: 100;
+		vertical-align: top;
+		padding-top:5%;
+		position: relative;
+		text-align:center;
+	}
+
+	.is-item > span a:hover span.description{
+		display:none;
 	}
 }
 

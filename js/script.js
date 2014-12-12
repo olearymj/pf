@@ -4,6 +4,7 @@ var $container = $('.isotope');
 // init
 $container.isotope({
   itemSelector: '.is-item',
+  transitionDuration: 0,
   layoutMode: 'masonry',
   masonry:{
   	gutter: 10
