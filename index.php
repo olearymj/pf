@@ -33,6 +33,8 @@
 				<a href="#" class="stop">Stop</a>
 				&nbsp;&nbsp;|&nbsp;&nbsp;
 				<a href="#" class="greyscale">Greyscale</a>
+				&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#" class="reload">Reload</a>
 			</div>
 		</div>
 	</div>
