@@ -7,6 +7,10 @@ body, html, h1, *{
 	color:#333;
 }
 
+h1 {
+	color:blue;
+}
+
 a:hover {
 	opacity:0.8;
 }
