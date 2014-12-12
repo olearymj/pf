@@ -43,8 +43,8 @@ a:hover {
 .is-item > span:hover span.background{
 	-webkit-filter:grayscale(100%);
 	filter:grayscale(100%);
-	-webkit-filter:blur(10px);
-	filter:blur(10px);
+	-webkit-filter:blur(3px);
+	filter:blur(3px);
 	overflow:hidden;
 }
 
