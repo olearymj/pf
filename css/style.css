@@ -120,8 +120,8 @@ a:hover {
 	position: relative;
 	border:solid 1px rgba(0,0,0,0.008);
 	float:left;
-	width:30px;
-	height:30px;
+	width:2vw;
+	height:2vw;
 	display:block;
 }
 
@@ -141,19 +141,18 @@ a:hover {
 }
 
 .container .bottom{
-	width:100%;
+	width:110%;
 	margin-top:30px;
 }
 
 h1{
 	font-family:garamond;
 	font-weight:500;
-	font-size:25px;
-	margin-top:0;
+	font-size:23px;
 }
 
 h1 a{
-	font-size:25px;
+	font-size:23px;
 	font-family:'Plantin', garamond;
 	text-decoration:none;
 }
@@ -288,6 +287,15 @@ nav.main a{
 		margin-bottom:5px;
 	}
 
+	.hoverspan{
+	position: relative;
+	border:solid 1px rgba(0,0,0,0.008);
+	float:left;
+	width:2.5vw;
+	height:2.5vw;
+	display:block;
+}
+
 }
 
 @media only screen and (max-width:1040px) {
@@ -312,6 +320,14 @@ nav.main a{
 			display:none !important;
 		}
 
+		.hoverspan{
+			position: relative;
+			border:solid 1px rgba(0,0,0,0.008);
+			float:left;
+			width:4vw;
+			height:4vw;
+			display:block;
+		}
 	}
 
 
@@ -333,6 +349,20 @@ nav.main a{
 
 	span.project-title{
 		font-size:13px;
+	}
+
+
+}
+
+
+@media only screen and (max-width:600px){
+	.hoverspan{
+		position: relative;
+		border:solid 1px rgba(0,0,0,0.008);
+		float:left;
+		width:10vw;
+		height:10vw;
+		display:block;
 	}
 }
 

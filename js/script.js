@@ -54,8 +54,16 @@ $.fn.addTouch = function(){
 	var width = window.innerWidth;
 	var height = window.innerHeight;
 
+	var width1 = $('.container .bottom').width();
+	var height1 = $('.container .bottom').height();
 
-	var area = width*height/900;
+
+	console.log(width);
+	console.log(width1);
+	console.log(height);
+	console.log(height1);
+
+	var area = width*height/700;
 
 	function initBoxes(){
 		for(i=0; i< area; i++ ){
