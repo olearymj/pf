@@ -1,20 +1,10 @@
 <?php include('header.php') ?>
 <body class=''>
-
 	<div class="scroller">
-		<div class="tabler">
-		<tr>		
-			<p>Hello! This site is currently <i>under construction,</i> but please contact me through any of the above means or scroll down to kill some time until the site is ready to go.</p>
-		</tr>
-		<tr>
-			<a href="#" class="scroll_down">&darr;</a>
-		</tr>
-		</div>
+			<p>Welcome, this site is currently <i>under construction,</i> but please contact me through any of the above means or have fun by scrolling down a bit.</p>
 	</div>
-	<div class="spacer"></div>
 	<div class="container">
-		<div class="spacer"></div>
-		<div class="top wait shadow">
+		<div class="top">
 		<h1><a href="http://jackolearymcneice.com/">Jack O'Leary McNeice</a></h1>
 			<div class="contact">
 				<span class="email">
@@ -36,7 +26,6 @@
 				<span class="projects">
 					<a href="projects/" class="projects">Projects</a>
 				</span>-->
-				<a href="#" class="scroll_up">&uarr;</a>
 			</div>
 		</div>
 		
@@ -53,6 +42,6 @@
 			</div>
 		</div>
 	</div>
-
+	
 </body>
 </html>

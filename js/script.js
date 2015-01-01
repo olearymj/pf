@@ -54,19 +54,21 @@ $.fn.addTouch = function(){
 	var width = window.innerWidth;
 	var height = window.innerHeight;
 
+
 	var width1 = $('.container .bottom').width();
 	var height1 = $('.container .bottom').height();
 
 
 	var area = width*height/700;
 
+
 	function initBoxes(){
+
 		for(i=0; i< area; i++ ){
 			var rand = Math.floor((Math.random()*(100))+150);
 			var color = "rgb("+rand+","+rand+","+rand+")";
 			$('#bg').append('<span class="hoverspan" style="background-color:'+color+'"></span>')
 		}
-
 
 		$('.hoverspan').hover(function(){
 			if( ! $('body').hasClass('stop') ){
@@ -117,6 +119,26 @@ $.fn.addTouch = function(){
 			$('body').addClass('greyscale');
 			$('a.greyscale').text('Color');
 		}
+	});
+
+	$('.scroll_down').click(function(){
+		$('.scroller').slideUp();
+		$('.scroll_up').fadeIn('fast');
+		$('.container .top').removeClass('wait');
+	});
+
+	$('.scroll_up').click(function(){
+		$('.scroller').slideDown();
+		$('.scroll_up').fadeOut('fast');
+		$('.container .top').addClass('wait');
+	});
+
+	var lastScrollTop = 0;
+	
+	$(window).scroll(function(){
+       	$('.scroller').slideUp();
+		$('.scroll_up').fadeIn('fast');
+		$('.container .top').removeClass('wait');
 	});
 
 
