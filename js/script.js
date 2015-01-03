@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+
 var $container = $('.isotope');
 // init
 $container.isotope({
@@ -20,6 +22,8 @@ $.fn.addTouch = function(){
     });
   });
   
+  
+
   var handleTouch = function(event)
   {
     var touches = event.changedTouches,
@@ -86,11 +90,13 @@ $.fn.addTouch = function(){
 			}
 		});
 
+
 	}
 
 	
-	
-	initBoxes();
+	if( $('html').hasClass('no-touch') ){
+		initBoxes();
+	}
 	
 	function reInit(){
 		$('#bg').empty();
@@ -136,9 +142,11 @@ $.fn.addTouch = function(){
 	var lastScrollTop = 0;
 	
 	$(window).scroll(function(){
-       	$('.scroller').slideUp();
-		$('.scroll_up').fadeIn('fast');
-		$('.container .top').removeClass('wait');
+		if($('html').hasClass('no-touch') ){
+       		$('.scroller').slideUp();
+			$('.scroll_up').fadeIn('fast');
+			$('.container .top').removeClass('wait');
+		}
 	});
 
 

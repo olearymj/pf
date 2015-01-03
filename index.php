@@ -1,13 +1,14 @@
 <?php include('header.php') ?>
-<body class=''>
+<body>
 
 	<div class="scroller">
 		<div class="tabler">
 		<tr>		
-			<p>Hello! This site is currently <i>under construction,</i> but please contact me through any of the above means or scroll down to kill some time until the site is ready to go.</p>
+			<p class='desktop'>Hello! This site is currently <i>under construction,</i> but please contact me above or scroll down to kill some time until the site is ready to go.</p>
+			<p class='mobile'>Hello! This site is currently <i>under construction,</i> but please contact me above.</p>
 		</tr>
 		<tr>
-			<a href="#" class="scroll_down">&darr;</a>
+			<a href="#" class="scroll_down desktop">&darr;</a>
 		</tr>
 		</div>
 	</div>
@@ -36,12 +37,12 @@
 				<span class="projects">
 					<a href="projects/" class="projects">Projects</a>
 				</span>-->
-				<a href="#" class="scroll_up">&uarr;</a>
+				<a href="#" class="scroll_up desktop">&uarr;</a>
 			</div>
 		</div>
 		
 		<div class="bottom">
-		<div id="bg"></div>
+		<div id="bg desktop"></div>
 			<div class="action-buttons">
 				<a href="#" class="clear">Clear</a>
 				&nbsp;&nbsp;|&nbsp;&nbsp;
