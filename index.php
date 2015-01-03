@@ -42,7 +42,7 @@
 		</div>
 		
 		<div class="bottom">
-		<div id="bg desktop"></div>
+		<div id="bg" class='desktop'></div>
 			<div class="action-buttons">
 				<a href="#" class="clear">Clear</a>
 				&nbsp;&nbsp;|&nbsp;&nbsp;
