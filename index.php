@@ -33,10 +33,13 @@
 				<span class="linkedin">
 					<a href="http://ie.linkedin.com/pub/jack-o-leary-mcneice/39/731/b9a/" class="linkedin" target='_blank'>linkedin</a>
 				</span>
-				<!--<span class="divider">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+				<span class="divider">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+				
+				<?php if( $_GET['projects'] ) : ?>
 				<span class="projects">
 					<a href="projects/" class="projects">Projects</a>
-				</span>-->
+				</span>
+				<?php endif; ?>
 				<a href="#" class="scroll_up desktop">&uarr;</a>
 			</div>
 		</div>
