@@ -20,7 +20,9 @@ $url = $_SERVER['REQUEST_URI'];
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="http://jackolearymcneice.com/js/script.js"></script>
 <script src="http://jackolearymcneice.com/js/isotope.min.js"></script>
+<script src="http://jackolearymcneice.com/js/modernizr.custom.47815.js"></script>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" type='text/css' href='http://jackolearymcneice.com/css/style.css'>
+<link rel="stylesheet" type="text/css" href="http://jackolearymcneice.com/css/normalise.css">
+<link rel="stylesheet" type="text/css" href="http://jackolearymcneice.com/css/style.css">
 <title>Jack O'Leary McNeice</title>
 </head>
