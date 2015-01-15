@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <style>
       body {
         margin: 0px;
@@ -149,13 +150,13 @@ function draw(images) {
   
   var messageLayer = new Kinetic.Layer();
      
-  var infoCircle = new Kinetic.Circle({
+  /*var infoCircle = new Kinetic.Circle({
     x: stage.getWidth()-100,
     y: stage.getHeight()-100,
     radius: 20,
     fill:'gray',
     alpha: 0.5
-   });
+   });*/
 
      
   var circle = new Array(11);
@@ -163,14 +164,13 @@ function draw(images) {
 
   Kinetic.Circle.prototype.reactions = function(){
     
-    this.on('mouseover vmouseover', function(){
+    this.on('mouseover vmouseover touchstart', function(){
       this.opacity(0.5);
       layer.draw();
       this.audio.play();
-      console.log('mouseover')
     });
 
-    this.on('mouseout vmouseout', function(){
+    this.on('mouseout vmouseout touchend', function(){
       this.opacity(1);
       layer.draw();
       console.log('mouseout');
@@ -223,7 +223,7 @@ function draw(images) {
   circle.reverse(); 
 
 
-  infoCircle.on("click mousedown", function() {
+  /*infoCircle.on("click mousedown", function() {
     this.opacity(1);
     layer.draw();
   });   
@@ -232,7 +232,7 @@ function draw(images) {
   infoCircle.on("mouseover vmouseover", function() {
     writeMessage(messageLayer, "mouseover vmouseover circle");
     messageLayer.draw();
-  });
+  });*/
    
   for( i=0; i<11; i++ ){
     layer.add(circle[i]);
@@ -240,7 +240,7 @@ function draw(images) {
   }
 
 
-  layer.add(infoCircle);
+  //layer.add(infoCircle);
 
   stage.add(messageLayer);
   stage.add(layer);

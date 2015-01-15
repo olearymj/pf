@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <audio id="audOne"  preload="auto">
 			<source src="audio/one.mp3"></source>
 			<!--<source src="audio/one.ogg"></source>-->
@@ -120,13 +121,13 @@ function makeElements(sensorValue,valueNumber){
 
   if(makeX(sensorValue)==0){
     $(targetId).after('<img id= "'+imgId+'" src="'+src+'" alt="Water Droplets" />');
-    $("#"+imgId+"").mouseover(function(){
+    $("#"+imgId+"").on('mouseover touchstart', function(){
       chooseSound(sensorValue);
     });
   }else {
     for(var i=1; i<=(makeX(sensorValue)); i++){
       $(targetId).after('<img id= "'+imgId+'" src="'+src+'" alt="Water Droplets" />');
-      $("#"+imgId+"").mouseover(function(){
+      $("#"+imgId+"").on('mouseover touchstart', function(){
         chooseSound(sensorValue);
       });
     }
