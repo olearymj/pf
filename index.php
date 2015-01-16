@@ -35,11 +35,11 @@
 				</span>
 				<span class="divider">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
 				
-				<?php if( $_GET['projects'] ) : ?>
+				<?php /*if( $_GET['projects'] ) : ?>
 				<span class="projects">
 					<a href="projects/" class="projects">Projects</a>
 				</span>
-				<?php endif; ?>
+				<?php endif;*/ ?>
 				<a href="#" class="scroll_up desktop">&uarr;</a>
 			</div>
 		</div>
