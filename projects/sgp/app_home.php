@@ -1,9 +1,3 @@
-<?php 
-
-$home_url = 'http://local.hannah.com/moi';
-$url = $_SERVER['REQUEST_URI'];
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,12 +12,12 @@ $url = $_SERVER['REQUEST_URI'];
 
 </script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="http://local.hannah.com/moi/js/script.js"></script>
-<script src="http://local.hannah.com/moi/js/isotope.min.js"></script>
-<script src="http://local.hannah.com/moi/js/modernizr.custom.47815.js"></script>
+<script src="http://jackolearymcneice.com/js/script.js"></script>
+<script src="http://jackolearymcneice.com/js/isotope.min.js"></script>
+<script src="http://jackolearymcneice.com/js/modernizr.custom.47815.js"></script>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" type="text/css" href="http://local.hannah.com/moi/css/normalise.css">
-<link rel="stylesheet" type="text/css" href="http://local.hannah.com/moi/css/style.css">
+<link rel="stylesheet" type="text/css" href="http://jackolearymcneice.com/css/normalise.css">
+<link rel="stylesheet" type="text/css" href="http://jackolearymcneice.com/css/style.css">
 <title>Jack O'Leary McNeice</title>
 </head>
 <body>
@@ -32,15 +26,19 @@ $url = $_SERVER['REQUEST_URI'];
 <div class="app_home">
 	<span class="water">
 		<a href="http://jackolearymcneice.com/projects/sgp/app/water"></a>
+		<img src="http://jackolearymcneice.com/projects/projectimages/water.jpg" alt="dummy" class='dummy'>
 	</span>
 	<span class="sun">
 		<a href="http://jackolearymcneice.com/projects/sgp/app/sun"></a>
+		<img src="http://jackolearymcneice.com/projects/projectimages/fire.jpg" alt="dummy" class='dummy'>
 	</span>
 	<span class="earth">
 		<a href="http://jackolearymcneice.com/projects/sgp/app/earth"></a>
+		<img src="http://jackolearymcneice.com/projects/projectimages/earth.jpg" alt="dummy" class='dummy'>
 	</span>
 	<span class="air">
 		<a href="http://jackolearymcneice.com/projects/sgp/app/air"></a>
+		<img src="http://jackolearymcneice.com/projects/projectimages/air.jpg" alt="dummy" class='dummy'>
 	</span>
 </div>
 </body>

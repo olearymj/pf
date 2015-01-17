@@ -28,13 +28,11 @@ a:hover {
 .app_home{
 	width: 100%;
 	height:100%;
-	background:#ccc;
 }
 
 .app_home span{
 	width:50%;
 	height:50%;
-	border:solid 1px #fff;
 	display:block;
 	float:left;
 }
@@ -43,33 +41,39 @@ a:hover {
 	width:100%;
 	height:100%;
 	display: block;
+	opacity:0;
+	transition:opacity 0.2s;
+	-webkit-transition:opacity 0.2s;
+}
+
+.app_home span a.loaded{
+	opacity:1;
 }
 
 .app_home span.air a{
-	background-image:url(http://jackolearymcneice.com/projects/projectimages/air.jpg);	
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 .app_home span.sun a{
-	background-image:url(http://jackolearymcneice.com/projects/projectimages/fire.jpg);	
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 .app_home span.earth a{
-	background-image:url(http://jackolearymcneice.com/projects/projectimages/earth.jpg);	
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 .app_home span.water a{
-	background-image:url(http://jackolearymcneice.com/projects/projectimages/water.jpg);	
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center;
 }
 
+.app_home .dummy {
+	display:none;
+}
 
 .scroller{
 	width:100%;

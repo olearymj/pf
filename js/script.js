@@ -155,5 +155,13 @@ $.fn.addTouch = function(){
 		reInit();
 	});
 
+	if( $('.app_home').length ){
+		$('.dummy').load(function(){
+			var url = $(this).attr('src');
+			$(this).prev().css('background-image', 'url('+url+')');
+			$(this).prev().addClass('loaded');
+		});
+	}
+
 
 });
