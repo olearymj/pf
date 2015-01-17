@@ -2,6 +2,11 @@
 	box-sizing:border-box;
 }
 
+body, html {
+	width:100%;
+	height:100%;
+}
+
 body, html, h1, *{
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color:#333;
@@ -18,6 +23,53 @@ a:hover {
 .no-touch .mobile {
 	display:none;
 }
+
+
+.app_home{
+	width: 100%;
+	height:100%;
+	background:#ccc;
+}
+
+.app_home span{
+	width:50%;
+	height:50%;
+	border:solid 1px #fff;
+	display:block;
+	float:left;
+}
+
+.app_home span a{
+	width:100%;
+	height:100%;
+	display: block;
+}
+
+.app_home span.air a{
+	background-image:url(http://jackolearymcneice.com/projects/projectimages/air.png);	
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.app_home span.sun a{
+	background-image:url(http://jackolearymcneice.com/projects/projectimages/fire.png);	
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.app_home span.earth a{
+	background-image:url(http://jackolearymcneice.com/projects/projectimages/earth.png);	
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.app_home span.water a{
+	background-image:url(http://jackolearymcneice.com/projects/projectimages/water.png);	
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
 
 .scroller{
 	width:100%;
