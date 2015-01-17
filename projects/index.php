@@ -10,7 +10,7 @@
 			<div class="projects isotope">
 				<div class="is-item project college">
 					<span>
-						<span class="background" style='background-image:url(projectImages/sgp.png)'></span>
+						<span class="background" style='background-image:url(projectimages/sgp.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/sgp/">
 							<span class='project-title'>
 								Secret Garden Project
@@ -20,7 +20,7 @@
 				</div>
 				<div class="is-item project professional">
 					<span>
-						<span class="background" style='background-image:url(projectImages/rufflr.png)'></span>
+						<span class="background" style='background-image:url(projectimages/rufflr.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/rufflr/">
 							<span class='project-title'>
 								Rufflr
@@ -30,7 +30,7 @@
 				</div>
 				<div class="is-item project professional">
 					<span>
-						<span class="background" style='background-image:url(projectImages/voyvoy.png)'></span>
+						<span class="background" style='background-image:url(projectimages/voyvoy.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/voyvoy/">
 							<span class='project-title'>
 								Voy Voy
@@ -40,7 +40,7 @@
 				</div>
 				<div class="is-item project professional">
 					<span>
-						<span class="background" style='background-image:url(projectImages/spreadangel.png)'></span>
+						<span class="background" style='background-image:url(projectimages/spreadangel.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/spreadangel/">
 							<span class='project-title'>
 								SpreadAngel
@@ -50,7 +50,7 @@
 				</div>
 				<div class="is-item project professional">
 					<span>
-						<span class="background" style='background-image:url(projectImages/basicspace.png)'></span>
+						<span class="background" style='background-image:url(projectimages/basicspace.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/basicspace/">
 							<span class='project-title'>
 								Basic Space
@@ -60,7 +60,7 @@
 				</div>
 				<div class="is-item project professional">
 					<span>
-						<span class="background" style='background-image:url(projectImages/qon.png)'></span>
+						<span class="background" style='background-image:url(projectimages/qon.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/qon/">
 							<span class='project-title'>
 								Queens of Neon
@@ -70,7 +70,7 @@
 				</div>
 				<div class="is-item project college">
 					<span>
-						<span class="background" style='background-image:url(projectImages/povray.png)'></span>
+						<span class="background" style='background-image:url(projectimages/povray.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/povray/">
 							<span class='project-title'>
 								PovRay
@@ -80,7 +80,7 @@
 				</div>
 				<div class="is-item project college">
 					<span>
-						<span class="background" style='background-image:url(projectImages/3dsmax.png)'></span>
+						<span class="background" style='background-image:url(projectimages/3dsmax.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/3dsmax/">
 							<span class='project-title'>
 								3D Studio Max
@@ -89,8 +89,8 @@
 					</span>
 				</div>
 				<div class="is-item project personal">
-					<span style='background-image:url(projectImages/bench.png)'>
-						<span class="background" style='background-image:url(projectImages/bench.png)'></span>
+					<span style='background-image:url(projectimages/bench.png)'>
+						<span class="background" style='background-image:url(projectimages/bench.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/bench/">
 							<span class='project-title'>
 								Nomad Bench
@@ -100,8 +100,8 @@
 				</div>
 
 				<div class="is-item project personal">
-					<span style='background-image:url(projectImages/bench.png)'>
-						<span class="background" style='background-image:url(projectImages/bench.png)'></span>
+					<span style='background-image:url(projectimages/bench.png)'>
+						<span class="background" style='background-image:url(projectimages/bench.png)'></span>
 						<a href="http://local.hannah.com/moi/projects/bench/">
 							<span class='project-title'>
 								Desk
