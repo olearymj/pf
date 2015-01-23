@@ -4,7 +4,7 @@
 	<div class="scroller">
 		<div class="tabler">
 		<tr>		
-			<p class='desktop'>Hello! This site is currently <i>under construction,</i> but please contact me above or scroll down to kill some time until the site is ready to go.</p>
+			<p class='desktop'>Hello! This site is currently <i>under construction,</i> but please contact me above or click the arrow to kill some time until the site is ready to go.</p>
 			<p class='mobile'>Hello! This site is currently <i>under construction,</i> but please contact me above.</p>
 		</tr>
 		<tr>
