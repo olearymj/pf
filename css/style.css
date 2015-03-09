@@ -81,7 +81,7 @@ a:hover {
 	font-family:'Plantin',georgia, times, serif;
 	font-size:20px;
 	position:absolute;	
-	background: #555;
+	background: #fff;
 	z-index: 103;
 	top:0;
 }
@@ -128,7 +128,7 @@ a:hover {
 }
 
 .scroller p i { 
-	color:#fff;
+	color:#333;
 	font-family:georgia, times, serif;
 	text-decoration:none;
 }
