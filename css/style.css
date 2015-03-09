@@ -81,7 +81,7 @@ a:hover {
 	font-family:'Plantin',georgia, times, serif;
 	font-size:20px;
 	position:absolute;	
-	background: #34dddd;
+	background: #555;
 	z-index: 103;
 	top:0;
 }
@@ -302,7 +302,7 @@ a:hover {
 
 .container .top.wait {
 	box-shadow:none;
-	background:#34dddd;	
+	background:#555;	
 }
 
 .touch .container .top.wait {
