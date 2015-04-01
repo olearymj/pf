@@ -11,8 +11,29 @@
 		<div class="tease tease_one"></div>
 		<div class="tease tease_two hidden"></div>
 		<div class="tease tease_three hidden"></div>
-		<div class="tease tease_roll hidden">
+		<div class="tease tease_roll tease_roll_one hidden">
 			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>
+		</div>
+		<div class="tease tease_roll tease_roll_two hidden">
+			<a href="https://www.youtube.com/watch?v=IDfLETGv28g"></a>
+		</div>
+		<div class="tease tease_roll tease_roll_three hidden">
+			<a href="https://www.youtube.com/watch?v=GmZ2ICOZ8mo"></a>
+		</div>
+		<div class="tease tease_roll tease_roll_four hidden">
+			<a href="https://www.youtube.com/watch?v=xorVOdMWrkU"></a>
+		</div>
+		<div class="tease tease_roll tease_roll_five hidden">
+			<a href="https://www.youtube.com/watch?v=XHFy3YWpRx8"></a>
+		</div>
+		<div class="tease tease_roll tease_roll_six hidden">
+			<a href="https://www.youtube.com/watch?v=xEkIou3WFnM"></a>
+		</div>
+		<div class="tease tease_roll tease_roll_seven hidden">
+			<a href="https://www.youtube.com/watch?v=dmInI1o9OPE"></a>
+		</div>
+		<div class="tease tease_roll tease_roll_eight hidden">
+			<a href="https://www.youtube.com/watch?v=q-9kPks0IfE"></a>
 		</div>
 		<div class="congrats hidden next">
 			<p>
