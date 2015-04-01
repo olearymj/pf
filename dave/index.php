@@ -23,8 +23,10 @@
 		</div>
 		<div class="quote hidden">
 			<p>
-				<span class="quotation">This was no way to think; but who censored his thinking? Nobody but himself.</span>
-				<span class="author">Ernest Hemingway, For Whom the Bell Tolls</span>
+				<span class="quotation">It takes a long time to become young.</span>
+				<span class="author">Pablo Picasso</span>
+				<span class="quotation">And you have two days on me.</span>
+				<span class="author">Jack O'Leary McNeice</span>
 			</p>
 		</div>
 		<div class="spinning_dave hidden">
