@@ -84,7 +84,7 @@ body, html{
 }
 
 .quote .author{
-	text-align:right;
+	text-align:center;
 	display:block;
 	margin:auto;
 	width:60%;
