@@ -81,6 +81,7 @@ body, html{
 	display:block;
 	margin:auto;
 	width:60%;
+	margin-top:40px;
 }
 
 .quote .author{
