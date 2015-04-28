@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<?php
+$to = "jolmcn@gmail.com";
+$subject = "Dave Visited";
+$txt = $_SERVER['REMOTE_ADDR'];
+$headers = "From: jolmcn@gmail.com";
+
+mail($to,$subject,$txt,$headers);
+?>
 <html>
 	<head>
 		<title>happy birthday dave</title>
