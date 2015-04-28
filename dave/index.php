@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <?php
+
+require_once('geoplugin.class.php');
+    $geoplugin = new geoPlugin();
+    $geoplugin->locate();
+
+    $txt = $_SERVER['REMOTE_ADDR'];
+
 $to = "jolmcn@gmail.com";
-$subject = "Dave Visited";
-$txt = $_SERVER['REMOTE_ADDR'];
+$subject = "Someone Visited Dave's Page!";
 $headers = "From: jolmcn@gmail.com";
 
 
-if( $txt != '89.101.74.26' ){
-	mail($to,$subject,$txt,$headers);
+if( $txt != '89.101.74.6' && $txt != '127.0.0.1' ){
+	$txt = $_SERVER['REMOTE_ADDR']."Geolocation results for {$geoplugin->ip}: <br />\n".
+        "City: {$geoplugin->city}\n".
+        "Region: {$geoplugin->region}\n".
+        "Area Code: {$geoplugin->areaCode}\n".
+        "DMA Code: {$geoplugin->dmaCode}\n".
+        "Country Name: {$geoplugin->countryName}\n".
+        "Country Code: {$geoplugin->countryCode}\n".
+        "Longitude: {$geoplugin->longitude}\n".
+        "Latitude: {$geoplugin->latitude}\n".
+    	"Currency Code: {$geoplugin->currencyCode}\n".
+    	"Currency Symbol: {$geoplugin->currencySymbol}\n".
+    	"Exchange Rate: {$geoplugin->currencyConverter}\n";
+		mail($to,$subject,$txt,$headers);
 }
 ?>
 <html>
