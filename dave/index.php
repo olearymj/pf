@@ -5,7 +5,13 @@ $subject = "Dave Visited";
 $txt = $_SERVER['REMOTE_ADDR'];
 $headers = "From: jolmcn@gmail.com";
 
-mail($to,$subject,$txt,$headers);
+
+if( $txt != '89.101.74.26' ){
+	mail($to,$subject,$txt,$headers);
+}else{
+	$txt ='puddin';
+	mail($to,$subject,$txt,$headers);
+}
 ?>
 <html>
 	<head>
