@@ -12,7 +12,7 @@ $subject = "Someone Visited Dave's Page!";
 $headers = "From: jolmcn@gmail.com";
 
 
-if( $txt != '89.101.74.6' && $txt != '127.0.0.1' ){
+if( $txt != '89.101.74.26' && $txt != '127.0.0.1' ){
 	$txt = $_SERVER['REMOTE_ADDR']."Geolocation results for {$geoplugin->ip}: <br />\n".
         "City: {$geoplugin->city}\n".
         "Region: {$geoplugin->region}\n".
