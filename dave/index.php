@@ -8,9 +8,6 @@ $headers = "From: jolmcn@gmail.com";
 
 if( $txt != '89.101.74.26' ){
 	mail($to,$subject,$txt,$headers);
-}else{
-	$txt ='puddin';
-	mail($to,$subject,$txt,$headers);
 }
 ?>
 <html>
